@@ -1,1 +1,6 @@
 @import './base.css';
+@import 'bootstrap';
+
+body {
+  background-color: var(--bs-secondary);
+}
