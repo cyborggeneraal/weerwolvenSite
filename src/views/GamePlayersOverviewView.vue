@@ -1,7 +1,7 @@
 <template>
     <main>
         <div>
-            <BTable striped :items="players" />
+            <BTable selectionVariant="secondary" :items="players" />
         </div>
     </main>
 </template>
@@ -24,7 +24,12 @@ export default {
             () => {
                 this.players = this.$store.state.games.playersList
             },
-            () => {
+            (error) => {
+                console.log(error.response);
+                if (error.response.status == 401) {
+                    this.$store.dispatch('auth/logout');
+                    this.$router.push('/login');
+                }
                 this.players = null;
             }
         );

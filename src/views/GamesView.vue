@@ -9,6 +9,7 @@
                 </div>
             </div>
         </div>
+        Hi
     </main>
 </template>
 

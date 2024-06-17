@@ -1,6 +1,4 @@
-@import 'bootstrap';
+@import './custom.css';
 
-body {
-  background-color: var(--bs-secondary);
-  color: var(--bs-gray-400);
-}
+
+

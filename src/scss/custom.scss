@@ -1,0 +1,10 @@
+$red: #d40c14;
+$white: #ffffff;
+$gray-600: #6c757d;
+
+$primary: $red;
+
+$body-color: $white;
+$body-bg: $gray-600;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
