@@ -7,4 +7,10 @@ class GamesService {
     getAllHostGames() {
         return axios.get(API_URL + 'host', {headers: authHeader()});
     }
+
+    getGamePlayersList(id) {
+        return axios.get(API_URL + id + '/players', {headers: authHeader()});
+    }
 }
+
+export default new GamesService();

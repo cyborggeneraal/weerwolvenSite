@@ -8,5 +8,5 @@ import Navbar from './components/Navbar.vue'
   </header>
   <Navbar />
 
-  <RouterView />
+  <RouterView class="m-3"/>
 </template>

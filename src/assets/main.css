@@ -1,6 +1,6 @@
-@import './base.css';
 @import 'bootstrap';
 
 body {
   background-color: var(--bs-secondary);
+  color: var(--bs-gray-400);
 }
