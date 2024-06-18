@@ -1,7 +1,7 @@
 <template>
     <main>
-        <div v-for="action in role.actions">
-            <Action action="action" />
+        <div v-if="role" v-for="action in role.actions">
+            <Action :action="action" />
         </div>
     </main>
 </template>

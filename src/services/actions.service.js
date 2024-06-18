@@ -1,11 +1,9 @@
-
-
-export default actionStructures = [
+const actionStructures = [
     {
         role: "seer",
         actions: [
             {
-                name: "vision"
+                name: "vision",
                 parameters: [
                     {
                         name: "target",
@@ -38,3 +36,5 @@ export default actionStructures = [
         ]
     }
 ]
+
+export default actionStructures;
