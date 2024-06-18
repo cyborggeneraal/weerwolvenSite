@@ -2,7 +2,7 @@
   <main>
     <div class="row justify-content-center">
       <div class="h-100"></div>
-      <div class="col-4 card mt-5 p-4 bg-white border border-dark rounded">
+      <div class="col-4 card mt-5 p-4 border border-dark rounded">
         <div class="card-body">
           <Form @submit="handleLogin" :validation-schema="schema">
             <div class="mb-3">

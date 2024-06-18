@@ -12,14 +12,13 @@
                     </BInputGroup>
                 </div>
             </div>
-            <BButton variant="primary" class="my-2">Update</BButton>
         </BForm>
         </BCard>
     </main>
 </template>
 
 <script>
-import {BCard, BForm, BInputGroup, BFormInput, BButton} from 'bootstrap-vue-next'
+import {BCard, BForm, BInputGroup, BFormInput} from 'bootstrap-vue-next'
 
 export default {
     props: ['action'],
@@ -28,7 +27,6 @@ export default {
         BForm,
         BInputGroup,
         BFormInput,
-        BButton
     }
 }
 </script>
